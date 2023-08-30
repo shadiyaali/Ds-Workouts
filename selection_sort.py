@@ -12,17 +12,17 @@ print(my_list)
 
 
 
-list1 = [98,90,67,34,59,12,48]
-print(list1)
+# list1 = [98,90,67,34,59,12,48]
+# print(list1)
 
-for i in range(len(list1)-1):
-    min_value = list1[i]
-    for j in range(i+1,len(list1)):
-        if list1[j] > min_value :
-             min_value = list1[j]
-        min_ind = list1.index(min_value)
-        if list1[i] != list1[min_ind:]:
-            list1[i],list1[min_ind] = list1[min_ind],list1[i]
-print(list1)            
+# for i in range(len(list1)-1):
+#     min_value = list1[i]
+#     for j in range(i+1,len(list1)):
+#         if list1[j] > min_value :
+#              min_value = list1[j]
+#         min_ind = list1.index(min_value)
+#         if list1[i] != list1[min_ind:]:
+#             list1[i],list1[min_ind] = list1[min_ind],list1[i]
+# print(list1)            
 
  
